@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Info from './components/Info'
+import Eventos from './components/Eventos'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
     <Header subtitle="La obra que lleva el teatro a tu casa"/>
     <Info/>
+    <Eventos/>
     </>
   )
 }
