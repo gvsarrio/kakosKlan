@@ -1,0 +1,53 @@
+.header {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-black) 0px,
+    var(--color-black) 14px,
+    var(--color-white) 14px,
+    var(--color-white) 28px
+  );
+  padding: 0.5em 1em;
+  display: flex;
+  justify-content: center; /* separa leftGroup de iconos, a los extremos */
+  align-items: stretch;
+  font-family: sans-serif;
+}
+
+.leftGroup {
+  display: flex;
+  align-items: stretch;
+  color: var(--color-red);
+  gap: 3em; /* espacio entre logo y el bloque de enlaces */
+
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.titulo {
+  background-color: var(--color-white);
+  padding: 0.4em 1em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar_items {
+  display: flex;
+  align-items: stretch;
+  gap: 4em; /* espacio entre "Inicio", "Galería", "Contacto" */
+}
+
+.navbar_item {
+  padding: 0.4em 1em;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: var(--color-red);
+  background-color: var(--color-white);
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
